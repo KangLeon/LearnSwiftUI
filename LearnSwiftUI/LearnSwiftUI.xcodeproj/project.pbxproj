@@ -11,6 +11,7 @@
 		0A5399972BCE9F9700BEDAB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5399962BCE9F9700BEDAB4 /* ContentView.swift */; };
 		0A5399992BCE9F9800BEDAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5399982BCE9F9800BEDAB4 /* Assets.xcassets */; };
 		0A53999C2BCE9F9800BEDAB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A53999B2BCE9F9800BEDAB4 /* Preview Assets.xcassets */; };
+		0A5399A32BCEA10900BEDAB4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5399A22BCEA10900BEDAB4 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0A5399962BCE9F9700BEDAB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A5399982BCE9F9800BEDAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A53999B2BCE9F9800BEDAB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A5399A22BCEA10900BEDAB4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				0A5399942BCE9F9700BEDAB4 /* LearnSwiftUIApp.swift */,
 				0A5399962BCE9F9700BEDAB4 /* ContentView.swift */,
+				0A5399A22BCEA10900BEDAB4 /* SettingsView.swift */,
 				0A5399982BCE9F9800BEDAB4 /* Assets.xcassets */,
 				0A53999A2BCE9F9800BEDAB4 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5399A32BCEA10900BEDAB4 /* SettingsView.swift in Sources */,
 				0A5399972BCE9F9700BEDAB4 /* ContentView.swift in Sources */,
 				0A5399952BCE9F9700BEDAB4 /* LearnSwiftUIApp.swift in Sources */,
 			);
