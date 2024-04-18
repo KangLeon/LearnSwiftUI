@@ -8,19 +8,30 @@
 import SwiftUI
 
 @main
-struct LearnSwiftUIApp: App {
+struct MyApp: App {
     var body: some Scene {
+        #if os(iOS)
         WindowGroup {
             TabView {
                 ContentView()
                     .tabItem {
                         Label("Journal", systemImage: "book")
                     }
+                
                 SettingsView()
                     .tabItem {
                         Label("Settings", systemImage: "gear")
                     }
             }
         }
+        #elseif os(macOS)
+        WindowGroup {
+            AlternativeContentView()
+        }
+        
+        Settings {
+            SettingsView()
+        }
+        #endif
     }
 }
